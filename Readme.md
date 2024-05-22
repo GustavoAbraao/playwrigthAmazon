@@ -1,4 +1,4 @@
-## Teste automatizado E2E com Playwright | JavaScript | Github Actions 🧪
+## Teste automatizado E2E com Playwright | JavaScript 🧪
 - Automação Web ponta a ponta utilizando Playwright;
 - Page Objects Model;
 
