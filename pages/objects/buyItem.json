@@ -1,0 +1,29 @@
+{
+
+    "comment1": "Acessar pagina",
+    "url": "https://www.amazon.com.br/",
+    "validatePage": "[id='nav-logo-sprites']",
+
+    "comment2": "Pesquisar item",
+    "searchBar": "#twotabsearchtextbox",
+    "resultProduct": "//*[text()='Console Xbox Series S']",
+    
+    "comment3": "Selecionar item",
+    "selectItem" : "//span[@class='a-size-base-plus a-color-base a-text-normal'][contains(.,'Console Xbox Series S')]",
+    "resultItem": "#productTitle",
+    "sobreItem": "//h1[contains(.,'Sobre este item')]",
+    "produtoEmEstoque": "//span[@class='a-size-medium a-color-success'][contains(.,'Em estoque')]",
+    "addCart": "#add-to-cart-button",
+    "resultAddCart": "//h1[contains(.,'Adicionado ao carrinho')]",
+
+    "comment4": "Ir para o carrinho",
+    "goToCart": "//a[@data-csa-c-type='button']",
+    "resultCart": "//h1[contains(.,'Carrinho de compras')]",
+    "resultProductCart": "//span[@class='a-truncate-cut'][contains(.,'Console Xbox Series S')]",
+
+    "comment5": "Remover item do carrinho",
+    "removeItem": "//input[contains(@value,'Excluir')]",
+    "resultRemoveItem": "//h1[contains(.,'Seu carrinho de compras da Amazon está vazio.')]"
+
+
+}
